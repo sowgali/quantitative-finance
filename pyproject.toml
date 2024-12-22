@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "quantitative-finance"
+version = "0.1.0"
+description = "A simple implementation of Quant Finance Concepts"
+authors = ["Sowrya Gali <galisowrya@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+numpy = "^2.2.0"
+pandas = "^2.2.3"
+yfinance = "^0.2.51"
+mypy = "^1.14.0"
+matplotlib = "^3.10.0"
+ipykernel = "^6.29.5"
+scipy = "^1.14.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
